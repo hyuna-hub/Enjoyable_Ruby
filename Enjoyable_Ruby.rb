@@ -52,3 +52,18 @@ print "表面積=", area, "\n"
 print "体積=", volume, "\n"
 print "表面積=#{area}\n"
 puts "表面積=#{area}"
+
+
+a = 20
+if a >= 10 then
+	puts "greater"
+end
+if a <= 9 then
+	puts "smaller"
+end
+
+if a >= 10
+	puts "greater"
+else
+	puts "smaller"
+end
