@@ -12,3 +12,7 @@ mixed.size
 num.each do |n|
 	puts n
 end
+
+
+sym = :foo
+sym2 = :"foo"
