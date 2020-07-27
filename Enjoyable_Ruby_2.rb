@@ -15,4 +15,9 @@ end
 
 
 sym = :foo
-sym2 = :"foo"
+sym2 = :"foo
+
+
+song = {:title=> "Paranoid Android", :artist=>"Radiohead"}
+person = {"名前"=>"高橋", "仮名"=>"タカハシ"}
+mark = {11=>"Jack", 12=>"Queen", 13=>"King"}
