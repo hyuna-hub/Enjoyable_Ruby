@@ -13,11 +13,12 @@ num.each do |n|
 	puts n
 end
 
-
 sym = :foo
 sym2 = :"foo
-
 
 song = {:title=> "Paranoid Android", :artist=>"Radiohead"}
 person = {"名前"=>"高橋", "仮名"=>"タカハシ"}
 mark = {11=>"Jack", 12=>"Queen", 13=>"King"}
+
+person1 = {:name=>"後藤", :furigana=>"ゴトウ"}
+person2 = {name: "後藤", furigana: "ゴトウ"}
