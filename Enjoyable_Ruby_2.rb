@@ -22,3 +22,11 @@ mark = {11=>"Jack", 12=>"Queen", 13=>"King"}
 
 person1 = {:name=>"後藤", :furigana=>"ゴトウ"}
 person2 = {name: "後藤", furigana: "ゴトウ"}
+
+
+names = ["小林", "林", "高野", "森岡"]
+names.each do |name|
+	if /林/ =~ name
+		puts name
+	end
+end
