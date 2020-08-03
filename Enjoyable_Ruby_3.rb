@@ -6,3 +6,10 @@ puts "5番目の引数: #{ARGV[4]}"
 
 name = ARGV[0]
 puts "Happy Birthday, Ruby!"
+
+num0 = ARGV[0].to_i
+num1 = ARGV[1].to_i
+puts "#{num0} + #{num1} = #{num0 + num1}"
+puts "#{num0} - #{num1} = #{num0 - num1}"
+puts "#{num0} * #{num1} = #{num0 * num1}"
+puts "#{num0} / #{num1} = #{num0 / num1}"
