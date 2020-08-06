@@ -13,3 +13,9 @@ puts "#{num0} + #{num1} = #{num0 + num1}"
 puts "#{num0} - #{num1} = #{num0 - num1}"
 puts "#{num0} * #{num1} = #{num0 * num1}"
 puts "#{num0} / #{num1} = #{num0 / num1}"
+
+1: filename = ARGV[0]
+2: file = File.open(filename)
+3: text = file.read
+4: print text
+5: file.close
