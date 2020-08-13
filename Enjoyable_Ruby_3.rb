@@ -19,3 +19,7 @@ puts "#{num0} / #{num1} = #{num0 / num1}"
 3: text = file.read
 4: print text
 5: file.close
+
+1: filename = ARGV[0]
+2: text = file.read(filename)
+3: print text
