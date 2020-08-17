@@ -23,3 +23,5 @@ puts "#{num0} / #{num1} = #{num0 / num1}"
 1: filename = ARGV[0]
 2: text = file.read(filename)
 3: print text
+
+1: print File.read(ARGV[0])
